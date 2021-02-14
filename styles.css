@@ -1,0 +1,148 @@
+
+/* navbar */
+#navbar{
+    background-color: black;
+    height:77px
+}
+
+/* blue div navbar */
+.navdiv{
+    height:1px;
+background-color: #4CC1BE;
+}
+
+/* title navbar */
+.title{
+    font-family: "Calibri Light";
+    font-size: 40px;
+    color: #4CC1BE;
+    position: relative;
+    float: center;
+    margin-left: 50px;
+}
+
+/* switch text navbar */
+.navp{
+  font-family: "Calibri Light";
+  font-size: 20px;
+  color: #4CC1BE;
+  position: relative;
+  margin-top: auto;
+  margin-left: 9px;
+  margin-bottom: 18px;
+}
+
+/* switch navbar */
+.switch {
+  position: relative;
+  width: 60px;
+  height: 34px;
+  margin-top: auto;
+  margin-left: 50px;
+  margin-bottom: 14px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #4CC1BE;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #4CC1BE;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* table */
+#mytabel {
+    font-family: "Calibri Light";
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 120px;
+    margin-bottom: 40px;
+    font-size:32;
+}
+
+#mytabel td, #mytabel th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+#mytabel th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size:30px;
+    text-align: left;
+    background-color: black;
+    color: #4CC1BE;
+  }
+  #mytabel td {
+    font-size:25px;
+    text-align: left;
+  }
+
+#mytabel tr:nth-child(even){background-color: #f2f2f2;}
+
+#mytabel tr:hover {background-color: #ddd;}
+
+#showtabel{
+    background-color:white ;
+    color: black;
+    border: 2px solid #4CC1BE ;
+    border-radius: 6px;
+    align-self: center;
+    margin-top:15px;
+    margin-bottom:15px;
+    width: 180px;
+    height: 50px;
+    font-size: large;
+    margin-top:100px;
+}
+#showtabel:hover{
+    background-color: #4CC1BE;
+
+}
+
+
