@@ -7,6 +7,6 @@ for ($i = 0; $i < 20; $i++) {
 }
 
 $arr = json_encode($arr);
-die($artttr);
+die($arr);
 ?>
 
